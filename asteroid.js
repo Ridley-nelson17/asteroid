@@ -94,6 +94,7 @@ var setup = function() {
       vessel.spinRight();
     } 
     if (evt.keyCode === 38) {
+      alert("6");
       vessel.accelerate();
     } 
   });
